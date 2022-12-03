@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Alnuno</title>
+    <link rel="stylesheet" href="estilo.css">
+<script>
+
+    function calculaMedia(){
+        let n1 = dodcument.getElementById("nota'").value
+        let n2 = document.getElementById("nota2").value
+
+        let media = (eval(n1) + eval(n2)) / 2
+    }   alert(media)
+</script>
+</head>
+<body>
+    <h1><img src="image 1.png" alt="Lápis">Painel do Aluno<img src="image 1.png" alt="Lápis"></h1>
+    
+    <section class="formulario">
+             
+        <label>Digite a primeira nota do aluno:</label>
+        <input type="number" placeholder="Primeira nota">
+
+        <label>Digite a segunda nota do aluno:</label>
+        <input type="number" placeholder="Segunda nota">
+
+        <button>Calcular</button>
+   
+    </section>
+</body>
+</html>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+h1{
+    color: #FFFFFF;
+ 
+    width: 880px;
+    height: 138px;
+    left: 288px;
+    top: 107px;
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 69px;
+    text-align: center;
+}
+
+#imagem{
+   margin-top: -80px;
+   margin-bottom: -35px;
+}
+
+#filtroIdade{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    background: #CA7900;
+    border-radius: 40px;
+    width: 1100px;
+    height: 257px;
+    left: 137px;
+    top: 434px;
+    align-items: center;
+    position: absolute;
+    
+}
+
+#botoes1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-right: 50px;
+    
+}
+
+.label1 {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 53px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.botao1 {
+
+width: 225px;
+height: 76px;
+left: 761px;
+top: 562px;
+
+background: #CA8500;
+border: 9px solid #F5F5F5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+color: white;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+margin-top: 20px;
+margin-right: 50px;
+margin-left: 50px;
+padding: 0 20px 0px 70px;
+}
+
+#menuSuperior{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #CA7900;
+    padding: 50px;
+    position: absolute;
+    
+}
+
+.itemMenu {
+    margin-right: 75px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+}
+
+h2{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+}
